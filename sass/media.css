@@ -1,0 +1,294 @@
+@media screen and (max-width: 375px){
+  body{
+    background-image: none;
+    height:100vh;
+    background-size: none;
+    background-repeat:none;
+    background-position: none;
+    background-color:black;
+    margin: 0;
+  }
+  body #medioUno img {
+    display: none;
+  }
+  body #medioUno {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body #medioUno h1 {
+    color: white;
+    font-size: 105px;
+    width: 375px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-left: 25px;
+    font-style: italic;
+  }
+  body #footerUno {
+    display: block;
+    background-image: linear-gradient(0deg, #ffbb00 20%, #ffbb00 84%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    width: 375px;
+  }
+  body #footerUno .redes {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+  }
+  body #footerUno .ecoCafe {
+    color: black;
+    display: flex;
+    gap: 10px;
+    margin: 4px;
+  }
+/* ...............................bar */
+  body #encajonado {
+  background-color: rgba(0, 0, 0, 0.89);
+  width: 375px;
+  height: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  }
+  #encajonado .sucursales img {
+    width: 6cm;
+    height: 4cm;
+    justify-content: center;
+    margin-top: 14px;
+    border: 4px outset rgb(255, 123, 0);
+  }
+  body #footerDos {
+    display: flex;
+    background-image: linear-gradient(135deg, #ffbb00 84%, #ffbb00 96%);
+    padding: 20px;
+    height: 70px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+/* ......................................carta */
+   body #cartaCompleta {
+    background-image: none;
+    background-color: rgb(7, 29, 0);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 2px outset rgb(255, 174, 0) ;
+    gap: none;
+  }
+  body #cartaCompleta .cafesLicuados {
+    width: 375px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+
+}
+  body #cartaCompleta .Panaderia {
+    width: 355px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+  }
+  body #cartaCompleta .cafesLicuados h2 {
+    color: #ffae00;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bungee Shade", cursive;
+    height: 8px;
+    padding: 20px;
+    margin-bottom: 45px;
+  }
+  body #cartaCompleta .Panaderia h2 {
+    color: rgb(255, 174, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bungee Shade", cursive;
+    height: 8px;
+    padding: 20px;
+    margin-bottom: 65px;
+  }
+  body #footerTres {
+    display: flex;
+    background-image: linear-gradient(135deg, #ffae00 84%, #ffae00 96%);
+    padding: 20px;
+    height: 70px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+/* ...........................................................productos */
+  body #productos {
+    background-image: url(./imagenes/fondo-amarillo.jpg);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  } 
+  body #productos .variedad img{
+    width: 6cm;
+    height: 4cm;
+    border-top:6px solid #131313 ;
+
+  }
+  body #productos .variedad {
+    width: 6cm;
+    height: 6cm;
+    background-color: rgb(17, 17, 17);
+    color: rgb(221, 221, 221);
+    border-radius: 20px;
+    margin: 20px;
+  }
+  body #productos .variedad h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  }    
+  body #productos .variedad h4{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    text-align: center;
+    color:#ffbb00;
+  }    
+  body .data{
+    background-color: black;
+    width: 100%;
+    margin-left: 0cm;
+    margin-top: 0px;
+    color:rgb(255, 217, 0) ;
+    text-align: center;
+  }
+  /* ........................contacto */
+  body #formulario{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+
+  body #formulario .trabajo {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    height: auto;
+    color: wheat;
+    line-height:40px;
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  body #formulario .trabajo input {
+    line-height:20px;
+    display: flex;
+  }
+  body .trabajo h2{
+    color:rgba(255, 174, 0) ;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom:none;
+  }
+/* ...................galeria */
+  body #fotografias{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  body #fotografias .gente{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  body #fotografias .gente img{
+    width: 4cm;
+    height: 3cm;
+  }
+  body .foto {
+    background-color: black;
+    color:rgba(255, 174, 0) ;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: sans-serif;
+  }
+/* ........................ecocafe */
+  body .ecoCafe{
+    width: 100%;
+    height: auto;
+    margin:0cm;
+    display: block;
+  }
+  body .ecoCafe .ecoFoto img{
+    width: 100%;
+  }
+  body .ecoCafe .ecoTexto{
+    background-color: rgb(123, 243, 98);
+    color: rgb(0, 94, 0);
+    padding: 10px;
+  }
+  body .ecoCafe .ecoTexto ul{
+    color: rgb(0, 94, 0);
+    font-family: sans-serif;
+    font-size: 18px;   
+  }
+  body .ecoCafe .ecoTexto h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 52px;
+  }
+  body #footerCuatro{
+    display: flex;
+    background-image: linear-gradient(135deg, #ffbb00 84%, #ffbb00 96%);    
+    justify-content: center;
+    padding: 20px;
+    height: 70px;
+    margin-top: 0px;
+  }
+  body #footerCuatro .redesCuatro img {
+    width: 45px;
+    border: 4px outset rgb(255, 136, 0);
+    border-radius: 10px ;  
+  }
+/* cupones */
+  body .codigos{
+    display: block;
+  }    
+  body .extend, body .cuponTres, body .cuponDos, body .cuponUno {
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px dashed rgb(255, 136, 0);
+    padding: 6px;
+    margin-left: -38px;
+    font-family: sans-serif;
+    height: 4cm;
+    color: #ff8800;
+    font-family: "Rubik Moonrocks", cursive;
+    height: 430px;
+    width: 375px;
+}
+}
+  
+
+
